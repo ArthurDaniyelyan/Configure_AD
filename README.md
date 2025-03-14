@@ -33,9 +33,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 This project demonstrates the setup of an On-Premises Active Directory (AD) environment deployed in Microsoft Azure. The goal is to showcase cloud networking, identity management, and Windows administration skills.
 
 ## 1️ Azure Environment Setup
-###  Create a Virtual Network (VNet)**
-1. Log in to **Azure Portal**.
-2. Navigate to **Virtual Networks** → Click **Create**.
+###  Create a Virtual Network (VNet)
+1. Log in to Azure Portal.
+2. Navigate to Virtual Networks → Click Create.
 3. Configure:
    - Resource Group
    - Region
@@ -65,8 +65,8 @@ This project demonstrates the setup of an On-Premises Active Directory (AD) envi
 6. Set a Directory Services Restore Mode (DSRM) password**.
 7. Click Next → Install → Reboot.
 
-## 3️ Setup Client VM & Join Domain**
-### Create a Windows 10/11 Client VM**
+## 3️ Setup Client VM & Join Domain
+### Create a Windows 10/11 Client VM
 1. Create another Windows 10/11 VM.
 2. Assign it to the Client-Subnet.
 3. Change its DNS settings to point to the Domain Controller’s Private IP.
