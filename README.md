@@ -24,14 +24,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-Yes, but you should format it properly to make it look professional and easy to read. Here’s how you can structure it:
-
-1. **Create a GitHub Repository**  
-   - Go to [GitHub](https://github.com) and create a new repository (e.g., `OnPrem-AD-Azure`).
-   - Add a **README.md** file.
-
-2. **Format the README.md Properly**  
-   Copy and paste the guide into your `README.md`, but use proper **Markdown formatting** for better readability. Here's a properly formatted version:
 
 ---
 
@@ -56,10 +48,8 @@ This project demonstrates the setup of an **On-Premises Active Directory (AD) en
    - **Client-Subnet:** `10.0.2.0/24`
 5. Click **Review + Create** → **Create**.
 
----
-
 ## **2️ Deploy the Active Directory Domain Controller**
-### **🖥 Create a Windows Server VM**
+### ** Create a Windows Server VM**
 1. Go to **Virtual Machines** → **Create a VM**.
 2. Choose:
    - **Image:** Windows Server 2022 Datacenter
